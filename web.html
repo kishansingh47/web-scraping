@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./bootstrap/css/font-awesome.min.css">
+
+	<title>
+		Web scraping
+	</title>
+
+  <!-- jQuery library -->
+  <script src="./bootstrap/jquery/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="./bootstrap/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="./css/home.css">
+  <!--<link rel="stylesheet" href="./css/checkboxes.css">-->
+  <link rel="stylesheet" href="./css/element.css">
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" style="background-image: url(./images/1.png);">
+<header>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage"><h4>BEST 'O' MANIA</h4></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+      	<li class="active"><a href="#home"><h4>HOME</h4></a></li>
+        <li><a href="#pricing"><h4>PRICING</h4></a></li>
+        <li><a href="#contact"><h4>CONTACT</h4></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br><br>
+<div class="mysearch text-center"><br><br>
+  <h2>Find your ideal phone<br>for the best price</h2><br>
+  <form>
+    <center>
+      <div class="input-group col-xs-4">
+        <input type="text" class="form-control" placeholder="e.g. Iphone 6S">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+      </div>
+    </center>
+  </form>
+</div>
+<br><br>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3 col-md-3 col-lg-3" id="left-bar">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <!--<label for="check-one">-->
+            <!--<input type="checkbox" name="check-one" id="check-one" value="checkone"/>-->
+            <!--<i></i> <span>Check One</span>-->
+          <!--</label>-->
+
+          <!--<label for="check-two">-->
+            <!--<input type="checkbox" name="check-two" id="check-two" value="check-two"/>-->
+            <!--<i></i> <span>Check Two</span>-->
+          <!--</label>-->
+
+          <!--<label for="check-three">-->
+            <!--<input type="checkbox" name="check-three" id="check-three" value="check-three"/>-->
+            <!--<i></i> <span>Check Three</span>-->
+          <!--</label>-->
+
+          <!--<label for="radio-one">-->
+            <!--<input type="radio" name="exampleRadios" id="radio-one" value="radio-one"/>-->
+            <!--<i></i> <span>Radio One</span>-->
+          <!--</label>-->
+
+          <!--<label for="radio-two">-->
+            <!--<input type="radio" name="exampleRadios" id="radio-two" value="doggie"/>-->
+            <!--<i></i> <span>Radio Two</span>-->
+          <!--</label>-->
+
+
+          
+        </div>
+      </div>
+      <div class="con">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12"><div class="left-bar">Brand</div></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12"><div class="left-bar">most popular</div></div>
+      </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-6" id="main-content">
+      <div class="customDiv">Content
+        <div id="myCarousel" class="container carousel slide text-center" data-ride="carousel" style="width: inherit">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="./images/iphone 7s plus.jpg" alt="iphone 7s plus" class="img-responsive">
+            </div>
+
+            <div class="item">
+              <img src="./images/MI_4.jpg" alt="MI 4" class="img-responsive">
+            </div>
+
+            <div class="item">
+              <img src="./images/HTC-Desire-10-Pro.jpg" alt="HTC-Desire-10-Pro" class="img-responsive">
+            </div>
+
+            <div class="item">
+              <img src="./images/asus zenfone 3.jpg" alt="asus zenfone 3" class="img-responsive">
+            </div>
+          </div>
+
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        </header>
+        <br>
+        <div class="optional" id="optional"></div>
+      <div id="first">
+      <li id="LI_1">
+  <article id="ARTICLE_2">
+  
+      <div id="DIV_17">
+        <img src="https://rukminim1.flixcart.com/image/312/312/mobile/y/t/k/apple-iphone-7-mn9a2hn-a-original-imaerm2jptzcd3rs.jpeg?q=70" id="IMG_18" />
+        <button type="button" id="BUTTON_19">
+          <span id="SPAN_20"><span id="SPAN_21">View images</span></span>
+        </button>
+      </div>
+    
+    <div id="DIV_22">
+      <div id="DIV_23">
+        <div id="DIV_24">
+          <h3 id="H3_25">
+            Apple iPhone 7 (Rose Gold)
+          </h3>
+          <div id="DIV_26">
+          </div>
+        </div>
+        <div id="DIV_27">
+          <ul id="UL_1">
+	<li id="LI_2">
+		32 GB ROM |
+	</li>
+	<li id="LI_3">
+		4.7 inch Retina HD Display
+	</li>
+	<li id="LI_4">
+		12MP Primary Camera | 7MP Front
+	</li>
+	<li id="LI_5">
+		A10 Fusion Chip with 64-bit Architecture
+	</li>
+	<li id="LI_7">
+		1 Year Manufacturer Warranty
+	</li>
+</ul>
+        </div>
+        
+        
+
+      </div>
+      <section id="SECTION_42">
+        <h4 id="H4_43">
+          Other deals
+        </h4>
+        <ul id="UL_44">
+          <li id="LI_45">
+            <button id="BUTTON_46">
+              Amazon.in<strong id="STRONG_47">‎₹55,480</strong>
+            </button>
+          </li>
+          <li id="LI_48">
+            <button id="BUTTON_49">
+              Flipkart<strong id="STRONG_50">‎₹54,990</strong>
+            </button>
+          </li>
+          <li id="LI_51">
+            <button id="BUTTON_52">
+              Snapdeal<strong id="STRONG_53">‎₹52,870</strong>
+            </button>
+          </li>
+        </ul>
+        <div id="DIV_54">
+          <button id="BUTTON_55">
+            More deals: 6
+          </button>
+        </div>
+      </section>
+      <section id="SECTION_56">
+        <div id="DIV_57">
+          <div id="DIV_58">
+            <div id="DIV_59">
+              <em id="EM_60">Snapdeal</em>
+              <meta content="5579" id="META_61" />
+              <meta content="3480" id="META_62" /> ‎ <strong id="STRONG_64">‎₹52,870</strong>
+            </div>
+          </div>
+          <button id="BUTTON_65">
+            View Deal
+          </button>
+        </div>
+      </section>
+    </div>
+  </article>
+</li>
+
+<br><br>
+      
+      <li id="LI_1">
+  <article id="ARTICLE_2">
+  
+      <div id="DIV_17">
+        <img src="https://rukminim1.flixcart.com/image/312/312/mobile/y/t/k/apple-iphone-7-mn9a2hn-a-original-imaerm2jptzcd3rs.jpeg?q=70" id="IMG_18" />
+        <button type="button" id="BUTTON_19">
+          <span id="SPAN_20"><span id="SPAN_21">View images</span></span>
+        </button>
+      </div>
+    
+    <div id="DIV_22">
+      <div id="DIV_23">
+        <div id="DIV_24">
+          <h3 id="H3_25">
+            Apple iPhone 7 (Rose Gold)
+          </h3>
+          <div id="DIV_26">
+          </div>
+        </div>
+        <div id="DIV_27">
+          <ul id="UL_1">
+	<li id="LI_2">
+		32 GB ROM |
+	</li>
+	<li id="LI_3">
+		4.7 inch Retina HD Display
+	</li>
+	<li id="LI_4">
+		12MP Primary Camera | 7MP Front
+	</li>
+	<li id="LI_5">
+		A10 Fusion Chip with 64-bit Architecture
+	</li>
+	<li id="LI_7">
+		1 Year Manufacturer Warranty
+	</li>
+</ul>
+        </div>
+        
+        
+
+      </div>
+      <section id="SECTION_42">
+        <h4 id="H4_43">
+          Other deals
+        </h4>
+        <ul id="UL_44">
+          <li id="LI_45">
+            <button id="BUTTON_46">
+              Amazon.in<strong id="STRONG_47">‎₹55,480</strong>
+            </button>
+          </li>
+          <li id="LI_48">
+            <button id="BUTTON_49">
+              Flipkart<strong id="STRONG_50">‎₹54,990</strong>
+            </button>
+          </li>
+          <li id="LI_51">
+            <button id="BUTTON_52">
+              Snapdeal<strong id="STRONG_53">‎₹52,870</strong>
+            </button>
+          </li>
+        </ul>
+        <div id="DIV_54">
+          <button id="BUTTON_55">
+            More deals: 6
+          </button>
+        </div>
+      </section>
+      <section id="SECTION_56">
+        <div id="DIV_57">
+          <div id="DIV_58">
+            <div id="DIV_59">
+              <em id="EM_60">Snapdeal</em>
+              <meta content="5579" id="META_61" />
+              <meta content="3480" id="META_62" /> ‎ <strong id="STRONG_64">‎₹52,870</strong>
+            </div>
+          </div>
+          <button id="BUTTON_65">
+            View Deal
+          </button>
+        </div>
+      </section>
+    </div>
+    <div id="DIV_66">
+      <div id="DIV_67">
+        <div id="DIV_68">
+          <div id="DIV_69">
+            <div id="DIV_70">
+              <button id="BUTTON_71">
+                Share
+              </button>
+            </div>
+            <button id="BUTTON_72">
+              <span id="SPAN_73"></span>
+            </button>
+            <svg id="svg_74">
+              <path id="path_75">
+              </path>
+            </svg><span id="SPAN_76">Close</span>
+            <button id="BUTTON_77">
+              Hotel Details
+            </button>
+          </div>
+          <div id="DIV_78">
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+</li>
+
+<br><br>
+      
+      <li id="LI_1">
+  <article id="ARTICLE_2">
+  
+      <div id="DIV_17">
+        <img src="https://rukminim1.flixcart.com/image/312/312/mobile/y/t/k/apple-iphone-7-mn9a2hn-a-original-imaerm2jptzcd3rs.jpeg?q=70" id="IMG_18" />
+        <button type="button" id="BUTTON_19">
+          <span id="SPAN_20"><span id="SPAN_21">View images</span></span>
+        </button>
+      </div>
+    
+    <div id="DIV_22">
+      <div id="DIV_23">
+        <div id="DIV_24">
+          <h3 id="H3_25">
+            Apple iPhone 7 (Rose Gold)
+          </h3>
+          <div id="DIV_26">
+          </div>
+        </div>
+        <div id="DIV_27">
+          <ul id="UL_1">
+	<li id="LI_2">
+		32 GB ROM |
+	</li>
+	<li id="LI_3">
+		4.7 inch Retina HD Display
+	</li>
+	<li id="LI_4">
+		12MP Primary Camera | 7MP Front
+	</li>
+	<li id="LI_5">
+		A10 Fusion Chip with 64-bit Architecture
+	</li>
+	<li id="LI_7">
+		1 Year Manufacturer Warranty
+	</li>
+</ul>
+        </div>
+        
+        
+
+      </div>
+      <section id="SECTION_42">
+        <h4 id="H4_43">
+          Other deals
+        </h4>
+        <ul id="UL_44">
+          <li id="LI_45">
+            <button id="BUTTON_46">
+              Amazon.in<strong id="STRONG_47">‎₹55,480</strong>
+            </button>
+          </li>
+          <li id="LI_48">
+            <button id="BUTTON_49">
+              Flipkart<strong id="STRONG_50">‎₹54,990</strong>
+            </button>
+          </li>
+          <li id="LI_51">
+            <button id="BUTTON_52">
+              Snapdeal<strong id="STRONG_53">‎₹52,870</strong>
+            </button>
+          </li>
+        </ul>
+        <div id="DIV_54">
+          <button id="BUTTON_55">
+            More deals: 6
+          </button>
+        </div>
+      </section>
+      <section id="SECTION_56">
+        <div id="DIV_57">
+          <div id="DIV_58">
+            <div id="DIV_59">
+              <em id="EM_60">Snapdeal</em>
+              <meta content="5579" id="META_61" />
+              <meta content="3480" id="META_62" /> ‎ <strong id="STRONG_64">‎₹52,870</strong>
+            </div>
+          </div>
+          <button id="BUTTON_65">
+            View Deal
+          </button>
+        </div>
+      </section>
+    </div>
+    <div id="DIV_66">
+      <div id="DIV_67">
+        <div id="DIV_68">
+          <div id="DIV_69">
+            <div id="DIV_70">
+              <button id="BUTTON_71">
+                Share
+              </button>
+            </div>
+            <button id="BUTTON_72">
+              <span id="SPAN_73"></span>
+            </button>
+            <svg id="svg_74">
+              <path id="path_75">
+              </path>
+            </svg><span id="SPAN_76">Close</span>
+            <button id="BUTTON_77">
+              Hotel Details
+            </button>
+          </div>
+          <div id="DIV_78">
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+</li>
+
+<br><br>
+      
+      <li id="LI_1">
+  <article id="ARTICLE_2">
+  
+      <div id="DIV_17">
+        <img src="https://rukminim1.flixcart.com/image/312/312/mobile/y/t/k/apple-iphone-7-mn9a2hn-a-original-imaerm2jptzcd3rs.jpeg?q=70" id="IMG_18" />
+        <button type="button" id="BUTTON_19">
+          <span id="SPAN_20"><span id="SPAN_21">View images</span></span>
+        </button>
+      </div>
+    
+    <div id="DIV_22">
+      <div id="DIV_23">
+        <div id="DIV_24">
+          <h3 id="H3_25">
+            Apple iPhone 7 (Rose Gold)
+          </h3>
+          <div id="DIV_26">
+          </div>
+        </div>
+        <div id="DIV_27">
+          <ul id="UL_1">
+	<li id="LI_2">
+		32 GB ROM |
+	</li>
+	<li id="LI_3">
+		4.7 inch Retina HD Display
+	</li>
+	<li id="LI_4">
+		12MP Primary Camera | 7MP Front
+	</li>
+	<li id="LI_5">
+		A10 Fusion Chip with 64-bit Architecture
+	</li>
+	<li id="LI_7">
+		1 Year Manufacturer Warranty
+	</li>
+</ul>
+        </div>
+        
+        
+
+      </div>
+      <section id="SECTION_42">
+        <h4 id="H4_43">
+          Other deals
+        </h4>
+        <ul id="UL_44">
+          <li id="LI_45">
+            <button id="BUTTON_46">
+              Amazon.in<strong id="STRONG_47">‎₹55,480</strong>
+            </button>
+          </li>
+          <li id="LI_48">
+            <button id="BUTTON_49">
+              Flipkart<strong id="STRONG_50">‎₹54,990</strong>
+            </button>
+          </li>
+          <li id="LI_51">
+            <button id="BUTTON_52">
+              Snapdeal<strong id="STRONG_53">‎₹52,870</strong>
+            </button>
+          </li>
+        </ul>
+        <div id="DIV_54">
+          <button id="BUTTON_55">
+            More deals: 6
+          </button>
+        </div>
+      </section>
+      <section id="SECTION_56">
+        <div id="DIV_57">
+          <div id="DIV_58">
+            <div id="DIV_59">
+              <em id="EM_60">Snapdeal</em>
+              <meta content="5579" id="META_61" />
+              <meta content="3480" id="META_62" /> ‎ <strong id="STRONG_64">‎₹52,870</strong>
+            </div>
+          </div>
+          <button id="BUTTON_65">
+            View Deal
+          </button>
+        </div>
+      </section>
+    </div>
+    <div id="DIV_66">
+      <div id="DIV_67">
+        <div id="DIV_68">
+          <div id="DIV_69">
+            <div id="DIV_70">
+              <button id="BUTTON_71">
+                Share
+              </button>
+            </div>
+            <button id="BUTTON_72">
+              <span id="SPAN_73"></span>
+            </button>
+            <svg id="svg_74">
+              <path id="path_75">
+              </path>
+            </svg><span id="SPAN_76">Close</span>
+            <button id="BUTTON_77">
+              Hotel Details
+            </button>
+          </div>
+          <div id="DIV_78">
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+</li>
+
+<br><br>
+      
+      <li id="LI_1">
+  <article id="ARTICLE_2">
+  
+      <div id="DIV_17">
+        <img src="https://rukminim1.flixcart.com/image/312/312/mobile/y/t/k/apple-iphone-7-mn9a2hn-a-original-imaerm2jptzcd3rs.jpeg?q=70" id="IMG_18" />
+        <button type="button" id="BUTTON_19">
+          <span id="SPAN_20"><span id="SPAN_21">View images</span></span>
+        </button>
+      </div>
+    
+    <div id="DIV_22">
+      <div id="DIV_23">
+        <div id="DIV_24">
+          <h3 id="H3_25">
+            Apple iPhone 7 (Rose Gold)
+          </h3>
+          <div id="DIV_26">
+          </div>
+        </div>
+        <div id="DIV_27">
+          <ul id="UL_1">
+	<li id="LI_2">
+		32 GB ROM |
+	</li>
+	<li id="LI_3">
+		4.7 inch Retina HD Display
+	</li>
+	<li id="LI_4">
+		12MP Primary Camera | 7MP Front
+	</li>
+	<li id="LI_5">
+		A10 Fusion Chip with 64-bit Architecture
+	</li>
+	<li id="LI_7">
+		1 Year Manufacturer Warranty
+	</li>
+</ul>
+        </div>
+        
+        
+
+      </div>
+      <section id="SECTION_42">
+        <h4 id="H4_43">
+          Other deals
+        </h4>
+        <ul id="UL_44">
+          <li id="LI_45">
+            <button id="BUTTON_46">
+              Amazon.in<strong id="STRONG_47">‎₹55,480</strong>
+            </button>
+          </li>
+          <li id="LI_48">
+            <button id="BUTTON_49">
+              Flipkart<strong id="STRONG_50">‎₹54,990</strong>
+            </button>
+          </li>
+          <li id="LI_51">
+            <button id="BUTTON_52">
+              Snapdeal<strong id="STRONG_53">‎₹52,870</strong>
+            </button>
+          </li>
+        </ul>
+        <div id="DIV_54">
+          <button id="BUTTON_55">
+            More deals: 6
+          </button>
+        </div>
+      </section>
+      <section id="SECTION_56">
+        <div id="DIV_57">
+          <div id="DIV_58">
+            <div id="DIV_59">
+              <em id="EM_60">Snapdeal</em>
+              <meta content="5579" id="META_61" />
+              <meta content="3480" id="META_62" /> ‎ <strong id="STRONG_64">‎₹52,870</strong>
+            </div>
+          </div>
+          <button id="BUTTON_65">
+            View Deal
+          </button>
+        </div>
+      </section>
+    </div>
+    <div id="DIV_66">
+      <div id="DIV_67">
+        <div id="DIV_68">
+          <div id="DIV_69">
+            <div id="DIV_70">
+              <button id="BUTTON_71">
+                Share
+              </button>
+            </div>
+            <button id="BUTTON_72">
+              <span id="SPAN_73"></span>
+            </button>
+            <svg id="svg_74">
+              <path id="path_75">
+              </path>
+            </svg><span id="SPAN_76">Close</span>
+            <button id="BUTTON_77">
+              Hotel Details
+            </button>
+          </div>
+          <div id="DIV_78">
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+</li>
+
+<br><br>
+      
+      <li id="LI_1">
+  <article id="ARTICLE_2">
+  
+      <div id="DIV_17">
+        <img src="https://rukminim1.flixcart.com/image/312/312/mobile/y/t/k/apple-iphone-7-mn9a2hn-a-original-imaerm2jptzcd3rs.jpeg?q=70" id="IMG_18" />
+        <button type="button" id="BUTTON_19">
+          <span id="SPAN_20"><span id="SPAN_21">View images</span></span>
+        </button>
+      </div>
+    
+    <div id="DIV_22">
+      <div id="DIV_23">
+        <div id="DIV_24">
+          <h3 id="H3_25">
+            Apple iPhone 7 (Rose Gold)
+          </h3>
+          <div id="DIV_26">
+          </div>
+        </div>
+        <div id="DIV_27">
+          <ul id="UL_1">
+	<li id="LI_2">
+		32 GB ROM |
+	</li>
+	<li id="LI_3">
+		4.7 inch Retina HD Display
+	</li>
+	<li id="LI_4">
+		12MP Primary Camera | 7MP Front
+	</li>
+	<li id="LI_5">
+		A10 Fusion Chip with 64-bit Architecture
+	</li>
+	<li id="LI_7">
+		1 Year Manufacturer Warranty
+	</li>
+</ul>
+        </div>
+        
+        
+
+      </div>
+      <section id="SECTION_42">
+        <h4 id="H4_43">
+          Other deals
+        </h4>
+        <ul id="UL_44">
+          <li id="LI_45">
+            <button id="BUTTON_46">
+              Amazon.in<strong id="STRONG_47">‎₹55,480</strong>
+            </button>
+          </li>
+          <li id="LI_48">
+            <button id="BUTTON_49">
+              Flipkart<strong id="STRONG_50">‎₹54,990</strong>
+            </button>
+          </li>
+          <li id="LI_51">
+            <button id="BUTTON_52">
+              Snapdeal<strong id="STRONG_53">‎₹52,870</strong>
+            </button>
+          </li>
+        </ul>
+        <div id="DIV_54">
+          <button id="BUTTON_55">
+            More deals: 6
+          </button>
+        </div>
+      </section>
+      <section id="SECTION_56">
+        <div id="DIV_57">
+          <div id="DIV_58">
+            <div id="DIV_59">
+              <em id="EM_60">Snapdeal</em>
+              <meta content="5579" id="META_61" />
+              <meta content="3480" id="META_62" /> ‎ <strong id="STRONG_64">‎₹52,870</strong>
+            </div>
+          </div>
+          <button id="BUTTON_65">
+            View Deal
+          </button>
+        </div>
+      </section>
+    </div>
+    <div id="DIV_66">
+      <div id="DIV_67">
+        <div id="DIV_68">
+          <div id="DIV_69">
+            <div id="DIV_70">
+              <button id="BUTTON_71">
+                Share
+              </button>
+            </div>
+            <button id="BUTTON_72">
+              <span id="SPAN_73"></span>
+            </button>
+            <svg id="svg_74">
+              <path id="path_75">
+              </path>
+            </svg><span id="SPAN_76">Close</span>
+            <button id="BUTTON_77">
+              Hotel Details
+            </button>
+          </div>
+          <div id="DIV_78">
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+</li>
+
+<br><br>
+      
+      <li id="LI_1">
+  <article id="ARTICLE_2">
+  
+      <div id="DIV_17">
+        <img src="https://rukminim1.flixcart.com/image/312/312/mobile/y/t/k/apple-iphone-7-mn9a2hn-a-original-imaerm2jptzcd3rs.jpeg?q=70" id="IMG_18" />
+        <button type="button" id="BUTTON_19">
+          <span id="SPAN_20"><span id="SPAN_21">View images</span></span>
+        </button>
+      </div>
+    
+    <div id="DIV_22">
+      <div id="DIV_23">
+        <div id="DIV_24">
+          <h3 id="H3_25">
+            Apple iPhone 7 (Rose Gold)
+          </h3>
+          <div id="DIV_26">
+          </div>
+        </div>
+        <div id="DIV_27">
+          <ul id="UL_1">
+	<li id="LI_2">
+		32 GB ROM |
+	</li>
+	<li id="LI_3">
+		4.7 inch Retina HD Display
+	</li>
+	<li id="LI_4">
+		12MP Primary Camera | 7MP Front
+	</li>
+	<li id="LI_5">
+		A10 Fusion Chip with 64-bit Architecture
+	</li>
+	<li id="LI_7">
+		1 Year Manufacturer Warranty
+	</li>
+</ul>
+        </div>
+        
+        
+
+      </div>
+      <section id="SECTION_42">
+        <h4 id="H4_43">
+          Other deals
+        </h4>
+        <ul id="UL_44">
+          <li id="LI_45">
+            <button id="BUTTON_46">
+              Amazon.in<strong id="STRONG_47">‎₹55,480</strong>
+            </button>
+          </li>
+          <li id="LI_48">
+            <button id="BUTTON_49">
+              Flipkart<strong id="STRONG_50">‎₹54,990</strong>
+            </button>
+          </li>
+          <li id="LI_51">
+            <button id="BUTTON_52">
+              Snapdeal<strong id="STRONG_53">‎₹52,870</strong>
+            </button>
+          </li>
+        </ul>
+        <div id="DIV_54">
+          <button id="BUTTON_55">
+            More deals: 6
+          </button>
+        </div>
+      </section>
+      <section id="SECTION_56">
+        <div id="DIV_57">
+          <div id="DIV_58">
+            <div id="DIV_59">
+              <em id="EM_60">Snapdeal</em>
+              <meta content="5579" id="META_61" />
+              <meta content="3480" id="META_62" /> ‎ <strong id="STRONG_64">‎₹52,870</strong>
+            </div>
+          </div>
+          <button id="BUTTON_65">
+            View Deal
+          </button>
+        </div>
+      </section>
+    </div>
+    <div id="DIV_66">
+      <div id="DIV_67">
+        <div id="DIV_68">
+          <div id="DIV_69">
+            <div id="DIV_70">
+              <button id="BUTTON_71">
+                Share
+              </button>
+            </div>
+            <button id="BUTTON_72">
+              <span id="SPAN_73"></span>
+            </button>
+            <svg id="svg_74">
+              <path id="path_75">
+              </path>
+            </svg><span id="SPAN_76">Close</span>
+            <button id="BUTTON_77">
+              Hotel Details
+            </button>
+          </div>
+          <div id="DIV_78">
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+</li>
+
+<br><br>
+      
+      <li id="LI_1">
+  <article id="ARTICLE_2">
+  
+      <div id="DIV_17">
+        <img src="https://rukminim1.flixcart.com/image/312/312/mobile/y/t/k/apple-iphone-7-mn9a2hn-a-original-imaerm2jptzcd3rs.jpeg?q=70" id="IMG_18" />
+        <button type="button" id="BUTTON_19">
+          <span id="SPAN_20"><span id="SPAN_21">View images</span></span>
+        </button>
+      </div>
+    
+    <div id="DIV_22">
+      <div id="DIV_23">
+        <div id="DIV_24">
+          <h3 id="H3_25">
+            Apple iPhone 7 (Rose Gold)
+          </h3>
+          <div id="DIV_26">
+          </div>
+        </div>
+        <div id="DIV_27">
+          <ul id="UL_1">
+	<li id="LI_2">
+		32 GB ROM |
+	</li>
+	<li id="LI_3">
+		4.7 inch Retina HD Display
+	</li>
+	<li id="LI_4">
+		12MP Primary Camera | 7MP Front
+	</li>
+	<li id="LI_5">
+		A10 Fusion Chip with 64-bit Architecture
+	</li>
+	<li id="LI_7">
+		1 Year Manufacturer Warranty
+	</li>
+</ul>
+        </div>
+        
+        
+
+      </div>
+      <section id="SECTION_42">
+        <h4 id="H4_43">
+          Other deals
+        </h4>
+        <ul id="UL_44">
+          <li id="LI_45">
+            <button id="BUTTON_46">
+              Amazon.in<strong id="STRONG_47">‎₹55,480</strong>
+            </button>
+          </li>
+          <li id="LI_48">
+            <button id="BUTTON_49">
+              Flipkart<strong id="STRONG_50">‎₹54,990</strong>
+            </button>
+          </li>
+          <li id="LI_51">
+            <button id="BUTTON_52">
+              Snapdeal<strong id="STRONG_53">‎₹52,870</strong>
+            </button>
+          </li>
+        </ul>
+        <div id="DIV_54">
+          <button id="BUTTON_55">
+            More deals: 6
+          </button>
+        </div>
+      </section>
+      <section id="SECTION_56">
+        <div id="DIV_57">
+          <div id="DIV_58">
+            <div id="DIV_59">
+              <em id="EM_60">Snapdeal</em>
+              <meta content="5579" id="META_61" />
+              <meta content="3480" id="META_62" /> ‎ <strong id="STRONG_64">‎₹52,870</strong>
+            </div>
+          </div>
+          <button id="BUTTON_65">
+            View Deal
+          </button>
+        </div>
+      </section>
+    </div>
+    <div id="DIV_66">
+      <div id="DIV_67">
+        <div id="DIV_68">
+          <div id="DIV_69">
+            <div id="DIV_70">
+              <button id="BUTTON_71">
+                Share
+              </button>
+            </div>
+            <button id="BUTTON_72">
+              <span id="SPAN_73"></span>
+            </button>
+            <svg id="svg_74">
+              <path id="path_75">
+              </path>
+            </svg><span id="SPAN_76">Close</span>
+            <button id="BUTTON_77">
+              Hotel Details
+            </button>
+          </div>
+          <div id="DIV_78">
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+</li>
+
+<br><br>
+      
+      <li id="LI_1">
+  <article id="ARTICLE_2">
+  
+      <div id="DIV_17">
+        <img src="https://rukminim1.flixcart.com/image/312/312/mobile/y/t/k/apple-iphone-7-mn9a2hn-a-original-imaerm2jptzcd3rs.jpeg?q=70" id="IMG_18" />
+        <button type="button" id="BUTTON_19">
+          <span id="SPAN_20"><span id="SPAN_21">View images</span></span>
+        </button>
+      </div>
+    
+    <div id="DIV_22">
+      <div id="DIV_23">
+        <div id="DIV_24">
+          <h3 id="H3_25">
+            Apple iPhone 7 (Rose Gold)
+          </h3>
+          <div id="DIV_26">
+          </div>
+        </div>
+        <div id="DIV_27">
+          <ul id="UL_1">
+	<li id="LI_2">
+		32 GB ROM |
+	</li>
+	<li id="LI_3">
+		4.7 inch Retina HD Display
+	</li>
+	<li id="LI_4">
+		12MP Primary Camera | 7MP Front
+	</li>
+	<li id="LI_5">
+		A10 Fusion Chip with 64-bit Architecture
+	</li>
+	<li id="LI_7">
+		1 Year Manufacturer Warranty
+	</li>
+</ul>
+        </div>
+        
+        
+
+      </div>
+      <section id="SECTION_42">
+        <h4 id="H4_43">
+          Other deals
+        </h4>
+        <ul id="UL_44">
+          <li id="LI_45">
+            <button id="BUTTON_46">
+              Amazon.in<strong id="STRONG_47">‎₹55,480</strong>
+            </button>
+          </li>
+          <li id="LI_48">
+            <button id="BUTTON_49">
+              Flipkart<strong id="STRONG_50">‎₹54,990</strong>
+            </button>
+          </li>
+          <li id="LI_51">
+            <button id="BUTTON_52">
+              Snapdeal<strong id="STRONG_53">‎₹52,870</strong>
+            </button>
+          </li>
+        </ul>
+        <div id="DIV_54">
+          <button id="BUTTON_55">
+            More deals: 6
+          </button>
+        </div>
+      </section>
+      <section id="SECTION_56">
+        <div id="DIV_57">
+          <div id="DIV_58">
+            <div id="DIV_59">
+              <em id="EM_60">Snapdeal</em>
+              <meta content="5579" id="META_61" />
+              <meta content="3480" id="META_62" /> ‎ <strong id="STRONG_64">‎₹52,870</strong>
+            </div>
+          </div>
+          <button id="BUTTON_65">
+            View Deal
+          </button>
+        </div>
+      </section>
+    </div>
+    <div id="DIV_66">
+      <div id="DIV_67">
+        <div id="DIV_68">
+          <div id="DIV_69">
+            <div id="DIV_70">
+              <button id="BUTTON_71">
+                Share
+              </button>
+            </div>
+            <button id="BUTTON_72">
+              <span id="SPAN_73"></span>
+            </button>
+            <svg id="svg_74">
+              <path id="path_75">
+              </path>
+            </svg><span id="SPAN_76">Close</span>
+            <button id="BUTTON_77">
+              Hotel Details
+            </button>
+          </div>
+          <div id="DIV_78">
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+</li>
+
+<br><br>
+      
+      <li id="LI_1">
+  <article id="ARTICLE_2">
+  
+      <div id="DIV_17">
+        <img src="https://rukminim1.flixcart.com/image/312/312/mobile/y/t/k/apple-iphone-7-mn9a2hn-a-original-imaerm2jptzcd3rs.jpeg?q=70" id="IMG_18" />
+        <button type="button" id="BUTTON_19">
+          <span id="SPAN_20"><span id="SPAN_21">View images</span></span>
+        </button>
+      </div>
+    
+    <div id="DIV_22">
+      <div id="DIV_23">
+        <div id="DIV_24">
+          <h3 id="H3_25">
+            Apple iPhone 7 (Rose Gold)
+          </h3>
+          <div id="DIV_26">
+          </div>
+        </div>
+        <div id="DIV_27">
+          <ul id="UL_1">
+	<li id="LI_2">
+		32 GB ROM |
+	</li>
+	<li id="LI_3">
+		4.7 inch Retina HD Display
+	</li>
+	<li id="LI_4">
+		12MP Primary Camera | 7MP Front
+	</li>
+	<li id="LI_5">
+		A10 Fusion Chip with 64-bit Architecture
+	</li>
+	<li id="LI_7">
+		1 Year Manufacturer Warranty
+	</li>
+</ul>
+        </div>
+        
+        
+
+      </div>
+      <section id="SECTION_42">
+        <h4 id="H4_43">
+          Other deals
+        </h4>
+        <ul id="UL_44">
+          <li id="LI_45">
+            <button id="BUTTON_46">
+              Amazon.in<strong id="STRONG_47">‎₹55,480</strong>
+            </button>
+          </li>
+          <li id="LI_48">
+            <button id="BUTTON_49">
+              Flipkart<strong id="STRONG_50">‎₹54,990</strong>
+            </button>
+          </li>
+          <li id="LI_51">
+            <button id="BUTTON_52">
+              Snapdeal<strong id="STRONG_53">‎₹52,870</strong>
+            </button>
+          </li>
+        </ul>
+        <div id="DIV_54">
+          <button id="BUTTON_55">
+            More deals: 6
+          </button>
+        </div>
+      </section>
+      <section id="SECTION_56">
+        <div id="DIV_57">
+          <div id="DIV_58">
+            <div id="DIV_59">
+              <em id="EM_60">Snapdeal</em>
+              <meta content="5579" id="META_61" />
+              <meta content="3480" id="META_62" /> ‎ <strong id="STRONG_64">‎₹52,870</strong>
+            </div>
+          </div>
+          <button id="BUTTON_65">
+            View Deal
+          </button>
+        </div>
+      </section>
+    </div>
+    <div id="DIV_66">
+      <div id="DIV_67">
+        <div id="DIV_68">
+          <div id="DIV_69">
+            <div id="DIV_70">
+              <button id="BUTTON_71">
+                Share
+              </button>
+            </div>
+            <button id="BUTTON_72">
+              <span id="SPAN_73"></span>
+            </button>
+            <svg id="svg_74">
+              <path id="path_75">
+              </path>
+            </svg><span id="SPAN_76">Close</span>
+            <button id="BUTTON_77">
+              Hotel Details
+            </button>
+          </div>
+          <div id="DIV_78">
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+</li>
+</div>
+
+
+
+</div>
+    </div>
+</div>
+
+
+<footer class="container-fluid text-center">
+	<div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="web.html" class="active">1</a>
+  <a href="second.html">2</a>
+  <a href="third.html">3</a>
+  <a href="#fourth">4</a>
+  <a href="#fifth">5</a>
+  <a href="#sixth">6</a>
+  <a href="#seventh">7</a>
+  <a href="#eighth">8</a>
+  <a href="#ninth">9</a>
+  <a href="#tenth">10</a>
+  <a href="#">&raquo;</a>
+</div>
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"><br>Top</span>
+  </a>
+  <p>Copyright 2017 Best 'O' Mania | All rights reserved.<a href="#myPage"><br>BEST 'O' MANIA</a></p>
+</footer>
+</body>
+</html>
