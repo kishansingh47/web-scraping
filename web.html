@@ -252,6 +252,28 @@ height: 83vh;
   background-color: none;
 }
 
+li a {
+    display: block;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+}
+
+a {text-decoration:none;}
+
+li a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.brand_list{
+  list-style-type: none;
+    padding: 1px;
+    top: 0;
+    width: 100%;
+}
+
+
 </style>
 	<title>
 		Web scraping
@@ -377,31 +399,36 @@ height: 83vh;
 <div class="left-bar" id="floating_list">
 	<nav>
 	<center><b>BRANDS</b></center>
-	<br><ul>
+	<ul class="brand_list">
 		<li>
-			Iphone
+    <a id="anchor" href="#first">Apple</a>
+			
 		</li>
 		<li>
-			Samsung&emsp;&emsp;&nbsp;
+      <a id="anchor" href="#first">
+			Samsung
+      </a>
 		</li>
 		<li>
+    <a id="anchor" href="#first">
 			LG
+      </a>
 		</li>
 		<li>
+    <a id="anchor" href="#first">
 			Motorola
+      </a>
 		</li>
 		
 		<li>
+    <a id="anchor" href="#first">
 			HTC
+      </a>
 		</li>
+		
 		<li>
-			Google
-		</li>
-		<li>
-			Lenovo
-		</li>
-		<li>
-			Sony
+<a id="anchor" href="#first">Lenovo
+      </a>
 		</li>
 		
 	</ul>
