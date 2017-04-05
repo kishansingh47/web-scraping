@@ -24,8 +24,18 @@
            height: 100%;
            z-index: -100;
           background: linear-gradient(to bottom right , #3e3e3e, #cecece);
-          background: -moz-linear-gradient(bottom right, violet, #fff);*/
+          /*background: -moz-linear-gradient(bottom right, violet, #fff);*/
+          overflow-x:hidden;
 		}
+
+    ::-moz-selection {
+   background-color: #FE2969;
+   color: #fff;
+  }
+  ::selection {
+    background-color: #FE2969;
+    color: #fff;
+  }
 		.mysearch{
 			color: #ffffff;
     		/*background-color: #01dd98;*/
@@ -142,12 +152,12 @@
   width: 
 }
 #homepg{
-    background-image: url("backgro.jpeg");
+    background-image: url("bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 }
-.bg-1, .bg-1 a{
+.bg-1{
     /*background: #2d2d30;*/
     background-image: url("foot1.png");
     background-repeat: no-repeat;
@@ -159,6 +169,16 @@
     margin-bottom: -50px;
     /*box-shadow: 4px 4px 4px black;*/
 }
+.bg-1 a{
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: darkblue;
+    padding: 0px;
+    font-weight: bold;
+    bottom: 0;
+    text-decoration: none;
+    margin-bottom: -50px;
+}
 .bg-2{
     background: #005fa7;
 }
@@ -166,28 +186,31 @@
     text-shadow: 3px white;
 }
 .left-bar {
-    min-height: 42vh;
-    /*margin-top: 150px;*/
+    min-height: 54vh;
+    /*margin-top: 0.1px;*/
     /*margin-left: -25%;*/
-    margin-left: 40px;
-    width: 160px;
+    margin-left: 60px;
+    width: 300px;
     /*width: 10%;*/
     height: 32rem;
     /*background-color: #404040;*/
-    background-image: url(purple.jpg);
+    /*background-image: url(purple.jpg);*/
+    background-color:white;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: left;
     /*align-content: left;*/
     font-size: large;
-    color: white;
+    color: #005fa7;
+    border-radius:10%;
     position: absolute;
-    box-shadow: 5px 5px 5px black;
+    padding:0%;
+    /*box-shadow: 5px 5px 5px black;*/
 }
 .customDiv{
     /*margin-left: -2%;*/
     /*background-color: #404040;*/
-    background-image: url("purple.jpg");
+    /*background-image: url("purple.jpg");*/
     background-repeat: no-repeat;
     background-size: 1300px 780px;
     text-align: center;
@@ -198,10 +221,10 @@
     width: 98vw;
     font-size: large;
     margin-left: -63.5%;
-height: 83vh;
+    height: 83vh;
     color: white;
     position: absolute;
-   /* margin-left: -50%;*/
+    margin-left: -61%;
     /*box-shadow: 2px 2px 2px black;*/
 }
 .pagination {
@@ -242,7 +265,7 @@ height: 83vh;
 }
 .pagination button:hover:not(.active) {
     background-color: #005fa7;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .phones{
       margin-top: 38%;
@@ -254,21 +277,26 @@ height: 83vh;
 
 li a {
     display: block;
-    color: white;
+    color: #005fa7;
     padding: 8px;
+
     text-decoration: none;
 }
 
 a {text-decoration:none;}
 
 li a:hover {
-    background-color: #4CAF50;
+    background-color: #005fa7;
     color: white;
+    border-radius:0%;
+    text-decoration:none;
+    
+     border-radius: 1em; padding:0.7em;
 }
 
 .brand_list{
   list-style-type: none;
-    padding: 1px;
+      padding-left: 0%;
     top: 0;
     width: 100%;
 }
@@ -276,7 +304,7 @@ li a:hover {
 
 </style>
 	<title>
-		Web scraping
+		Web Scraping
 	</title>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -304,24 +332,34 @@ li a:hover {
 <br><br>
 <div id="write" class="mysearch text-center slide" width="50%"><br><br>
   <h2>Find your ideal phone<br>for the best price</h2><br>
-  <form>
+  
+
+
   <center>
   <div class="input-group col-xs-4">
-    <input type="text" class="form-control" placeholder="e.g. Iphone 6S">
+    <input list="mobile" type="search" id="mySearch" class="form-control" placeholder="e.g. Iphone">
+    <datalist id="mobile">
+    <option value="Apple">
+    <option value="Samsung">
+    <option value="htc"></option>
+  </datalist>
     <div class="input-group-btn">
-      <button class="btn btn-default" type="submit">
+      <button class="btn btn-default" type="submit" onclick="search()">
         <i class="glyphicon glyphicon-search"></i>
       </button>
     </div>
+    
   </div>
   </center>
-</form><br><br><br><br><br><br><br><br><br><br>
-</div><br><br><br>
+
+
+<br><br><br><br><br><br><br><br><br><br>
+</div><br><br>
 <footer class="container-fluid text-center" id="startchange">
   <a href="#trending" title="To Trending">
     <span class="glyphicon glyphicon-chevron-down glyphicon-white glyphicon-ring"></span>
   </a></footer> 
-</div><div id="trending"></div><br><br><br><br><br><br>
+</div><div id="trending"></div><br><br><br>
 
 <div class="container">
   <div class="row">
@@ -398,36 +436,36 @@ li a:hover {
 
 <div class="left-bar" id="floating_list">
 	<nav>
-	<center><b>BRANDS</b></center>
+	<div style="background-color: #005fa7; border-top-left-radius: 1.5em; border-top-right-radius: 1.5em; color:#fff; padding:0.7em;"><center><b>BRANDS</b></center></div>
 	<ul class="brand_list">
 		<li>
-    <a id="anchor" href="#first">Apple</a>
+    <a id="anchor" href="#first"><b>Apple</b></a>
 			
 		</li>
 		<li>
       <a id="anchor" href="samsung.html">
-			Samsung
+			<b>Samsung</b>
       </a>
 		</li>
 		<li>
     <a id="anchor" href="#first">
-			LG
+			<b>LG</b>
       </a>
 		</li>
 		<li>
     <a id="anchor" href="#first">
-			Motorola
+			<b>Motorola</b>
       </a>
 		</li>
 		
 		<li>
-    <a id="anchor" href="#first">
-			HTC
+    <a id="anchor" href="htc.html">
+			<b>HTC</b>
       </a>
 		</li>
 		
 		<li>
-<a id="anchor" href="#first">Lenovo
+<a id="anchor" href="#first"><b>Lenovo</b>
       </a>
 		</li>
 		
@@ -1526,7 +1564,7 @@ li a:hover {
     </div>
 </div></div>
 
-
+<br>
 <footer class="text-center">
   <div class="pagination">
   <a href="#">&laquo;</a>
@@ -1536,8 +1574,8 @@ li a:hover {
   <button onclick="changeContent4()">4</button>
   <button onclick="changeContent5()">5</button>
   <a href="#">&raquo;</a>
-</div>
-<br/><div class="bg-1"><br/><br/>
+</div><br>
+<br/><div class="bg-1">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a><br/><br/><br>
@@ -1590,7 +1628,7 @@ $(document).ready(function(){
 
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 1040) {
+  if (y > 775) {
     $('.article1').fadeIn();
   } else {
     $('.article1').fadeOut();
@@ -1599,7 +1637,7 @@ $(document).scroll(function() {
 
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 1280) {
+  if (y > 1025) {
     $('.article2').fadeIn();
   } else {
     $('.article2').fadeOut();
@@ -1607,7 +1645,7 @@ $(document).scroll(function() {
 });
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 1520) {
+  if (y > 1275) {
     $('.article3').fadeIn();
   } else {
     $('.article3').fadeOut();
@@ -1615,7 +1653,7 @@ $(document).scroll(function() {
 });
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 1760) {
+  if (y > 1525) {
     $('.article4').fadeIn();
   } else {
     $('.article4').fadeOut();
@@ -1623,7 +1661,7 @@ $(document).scroll(function() {
 });
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 2000) {
+  if (y > 1775) {
     $('.article5').fadeIn();
   } else {
     $('.article5').fadeOut();
@@ -1631,7 +1669,7 @@ $(document).scroll(function() {
 });
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 2240) {
+  if (y > 2025) {
     $('.article6').fadeIn();
   } else {
     $('.article6').fadeOut();
@@ -1639,7 +1677,7 @@ $(document).scroll(function() {
 });
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 2480) {
+  if (y > 2275) {
     $('.article7').fadeIn();
   } else {
     $('.article7').fadeOut();
@@ -1647,7 +1685,7 @@ $(document).scroll(function() {
 });
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 2720) {
+  if (y > 2525) {
     $('.article8').fadeIn();
   } else {
     $('.article8').fadeOut();
@@ -1655,7 +1693,7 @@ $(document).scroll(function() {
 });
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 2960) {
+  if (y > 2775) {
     $('.article9').fadeIn();
   } else {
     $('.article9').fadeOut();
@@ -1663,7 +1701,7 @@ $(document).scroll(function() {
 });
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 3200) {
+  if (y > 3025) {
     $('.article10').fadeIn();
   } else {
     $('.article10').fadeOut();
@@ -1671,11 +1709,11 @@ $(document).scroll(function() {
 });
 $(document).on("scroll", function(){ 
 // or as a shorthand $(document).scroll(function(){
-if($(document).scrollTop() > 1210 && $(document).scrollTop() < 2960)
+if($(document).scrollTop() > 1125 && $(document).scrollTop() < 3150)
     {
         //begin to scroll
         $("#floating_list").css("position","fixed");
-        $("#floating_list").css("top",250);
+        $("#floating_list").css("top",190);
         $("#floating_list").fadeIn();
     }
     else
@@ -1686,5 +1724,25 @@ if($(document).scrollTop() > 1210 && $(document).scrollTop() < 2960)
 });
 
 </script>
+<script>
+    function search() {
+
+      if(document.getElementById("mySearch").value=="Apple")
+      {
+
+        window.open("https://www.youtube.com");
+      }
+      else if(document.getElementById("mySearch").value=="Samsung")
+      {
+
+        window.open("samsung.html");
+      }
+      else
+      {
+        window.open("./Error/error.html","_self");
+      }
+      // body...
+    }
+  </script>
 </body>
 </html>
