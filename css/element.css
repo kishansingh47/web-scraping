@@ -1172,7 +1172,7 @@
 
 #STRONG_64 {
     box-sizing: border-box;
-    color: rgb(102, 164, 0);
+    color: #005fa7;
     display: block;
     height: 22px;
     text-align: center;
@@ -1220,7 +1220,7 @@
     perspective-origin: 95.875px 22px;
     transform-origin: 95.875px 22px;
     user-select: none;
-    background: rgb(102, 164, 0) url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Ctitle%3Eicn_arrow_deal%3C%2Ftitle%3E%3Cpath%20d%3D%22M9.5%2018a1%201%200%200%201-.707-1.707L13.086%2012%208.793%207.707a1%201%200%201%201%201.414-1.414l5%205a1%201%200%200%201%200%201.414l-5%205A1%201%200%200%201%209.5%2018z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fsvg%3E") no-repeat scroll 98% 50% / auto padding-box border-box;
+    background: #005fa7 url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Ctitle%3Eicn_arrow_deal%3C%2Ftitle%3E%3Cpath%20d%3D%22M9.5%2018a1%201%200%200%201-.707-1.707L13.086%2012%208.793%207.707a1%201%200%201%201%201.414-1.414l5%205a1%201%200%200%201%200%201.414l-5%205A1%201%200%200%201%209.5%2018z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fsvg%3E") no-repeat scroll 98% 50% / auto padding-box border-box;
     border-top: 1px solid rgb(102, 164, 0);
     border-right: 1px solid rgb(102, 164, 0);
     border-bottom: 1px solid rgb(76, 123, 0);
