@@ -277,13 +277,13 @@
         
         <ul id="UL_44">
           <li id="LI_45">
-            <button id="BUTTON_46" >
-              Amazon.in<b id="STRONG_47">‎N/A</b>
+            <button id="BUTTON_46" ><strike>
+              Amazon.in<b id="STRONG_47">‎N/A</b></strike>
             </button>
           </li>
           <li id="LI_48">
-            <button id="BUTTON_49" >
-              Flipkart<b id="STRONG_50">‎N/A</b>
+            <button id="BUTTON_49" ><strike>
+              Flipkart<b id="STRONG_50">‎N/A</b></strike>
             </button>
           </li>
           <li id="LI_51">
@@ -441,8 +441,8 @@
             </button>
           </li>
           <li id="LI_51">
-            <button id="BUTTON_52" >
-              Snapdeal<b id="STRONG_53">‎N/A</b>
+            <button id="BUTTON_52" ><strike>
+              Snapdeal<b id="STRONG_53">‎N/A</b></strike>
             </button>
           </li>
         </ul>
@@ -514,13 +514,13 @@
             </button>
           </li>
           <li id="LI_48">
-            <button id="BUTTON_49">
-              Flipkart<b id="STRONG_50">‎N/A</b>
+            <button id="BUTTON_49"><strike>
+              Flipkart<b id="STRONG_50">‎N/A</b></strike>
             </button>
           </li>
           <li id="LI_51">
-            <button id="BUTTON_52">
-              Snapdeal<b id="STRONG_53">‎N/A</b>
+            <button id="BUTTON_52"><strike>
+              Snapdeal<b id="STRONG_53">‎N/A</b></strike>
             </button>
           </li>
         </ul>
@@ -674,8 +674,8 @@
             </button>
           </li>
           <li id="LI_51">
-            <button id="BUTTON_52">
-              Snapdeal<b id="STRONG_53">‎N/A</b>
+            <button id="BUTTON_52"><strike>
+              Snapdeal<b id="STRONG_53">‎N/A</b></strike>
             </button>
           </li>
         </ul>
@@ -741,8 +741,8 @@
         
         <ul id="UL_44">
           <li id="LI_45">
-            <button id="BUTTON_46" onclick="location.href='http://www.amazon.in/Xiaomi-Redmi-Note-Gold-32GB/dp/B01C2T6IDY?/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=9380349300&linkCode=as2&tag=mysm-21&ascsubtag=20170331391437&condition=new';">
-              Amazon.in<b id="STRONG_47" >N/A</b>
+            <button id="BUTTON_46" ><strike>
+              Amazon.in<b id="STRONG_47" >N/A</b></strike>
             </button>
           </li>
           <li id="LI_48">
@@ -751,8 +751,8 @@
             </button>
           </li>
           <li id="LI_51">
-            <button id="BUTTON_52">
-              Snapdeal<b id="STRONG_53">‎N/A</b>
+            <button id="BUTTON_52"><strike>
+              Snapdeal<b id="STRONG_53">‎N/A</b></strike>
             </button>
           </li>
         </ul>

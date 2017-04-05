@@ -341,7 +341,8 @@ li a:hover {
     <datalist id="mobile">
     <option value="Apple">
     <option value="Samsung">
-    <option value="htc"></option>
+    <option value="HTC">
+    <option value="Motorola">
   </datalist>
     <div class="input-group-btn">
       <button class="btn btn-default" type="submit" onclick="search()">
@@ -453,7 +454,7 @@ li a:hover {
       </a>
 		</li>
 		<li>
-    <a id="anchor" href="#first">
+    <a id="anchor" href="Motorola.html">
 			<b>Motorola</b>
       </a>
 		</li>
@@ -1736,6 +1737,16 @@ if($(document).scrollTop() > 1125 && $(document).scrollTop() < 3150)
       {
 
         window.open("samsung.html");
+      }
+      else if(document.getElementById("mySearch").value=="HTC")
+      {
+
+        window.open("htc.html");
+      }
+      else if(document.getElementById("mySearch").value=="Motorola")
+      {
+
+        window.open("Motorola.html");
       }
       else
       {

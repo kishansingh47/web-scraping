@@ -52,8 +52,8 @@
             </button>
           </li>
           <li id="LI_51">
-            <button id="BUTTON_52">
-              Snapdeal<b id="STRONG_53">‎N/A</b>
+            <button id="BUTTON_52"><strike>
+              Snapdeal<b id="STRONG_53">‎N/A</b></strike>
             </button>
           </li>
         </ul>
@@ -128,8 +128,8 @@
             </button>
           </li>
           <li id="LI_48">
-            <button id="BUTTON_49" >
-              Flipkart<b id="STRONG_50">‎N/A</b>
+            <button id="BUTTON_49" ><strike>
+              Flipkart<b id="STRONG_50">‎N/A</b></strike>
             </button>
           </li>
           <li id="LI_51">
@@ -213,8 +213,8 @@
             </button>
           </li>
           <li id="LI_51">
-            <button id="BUTTON_52" >
-              Snapdeal<b id="STRONG_53">‎N/A</b>
+            <button id="BUTTON_52" ><strike>
+              Snapdeal<b id="STRONG_53">‎N/A</b></strike>
             </button>
           </li>
         </ul>
@@ -288,13 +288,13 @@
             </button>
           </li>
           <li id="LI_48">
-            <button id="BUTTON_49" >
-              Flipkart<b id="STRONG_50">‎N/A</b>
+            <button id="BUTTON_49" ><strike>
+              Flipkart<b id="STRONG_50">‎N/A</b></strike>
             </button>
           </li>
           <li id="LI_51">
-            <button id="BUTTON_52" >
-              Snapdeal<b id="STRONG_53">‎N/A</b>
+            <button id="BUTTON_52" ><strike>
+              Snapdeal<b id="STRONG_53">‎N/A</b></strike>
             </button>
           </li>
         </ul>
@@ -528,13 +528,13 @@
             </button>
           </li>
           <li id="LI_48">
-            <button id="BUTTON_49" >
-              Flipkart<b id="STRONG_50">‎N/A</b>
+            <button id="BUTTON_49" ><strike>
+              Flipkart<b id="STRONG_50">‎N/A</b></strike>
             </button>
           </li>
           <li id="LI_51">
-            <button id="BUTTON_52" >
-              Shopclues<b id="STRONG_53" >N/A</b>
+            <button id="BUTTON_52" ><strike>
+              Shopclues<b id="STRONG_53" >N/A</b></strike>
             </button>
           </li>
         </ul>
@@ -610,8 +610,8 @@
             </button>
           </li>
           <li id="LI_51">
-            <button id="BUTTON_52" >
-              Snapdeal<b id="STRONG_53" >N/A</b>
+            <button id="BUTTON_52" ><strike>
+              Snapdeal<b id="STRONG_53" >N/A</b></strike>
             </button>
           </li>
         </ul>

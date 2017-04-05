@@ -42,8 +42,8 @@
         
         <ul id="UL_44">
           <li id="LI_45">
-            <button id="BUTTON_46" >
-              Amazon.in<b id="STRONG_47">‎N/A</b>
+            <button id="BUTTON_46" ><strike>
+              Amazon.in<b id="STRONG_47">‎N/A</b></strike>
             </button>
           </li>
           <li id="LI_48">
@@ -52,8 +52,8 @@
             </button>
           </li>
           <li id="LI_51">
-            <button id="BUTTON_52">
-              Snapdeal<b id="STRONG_53">‎N/A</b>
+            <button id="BUTTON_52"><strike>
+              Snapdeal<b id="STRONG_53">‎N/A</b></strike>
             </button>
           </li>
         </ul>
@@ -133,8 +133,8 @@
             </button>
           </li>
           <li id="LI_51">
-            <button id="BUTTON_52">
-              Snapdeal<b id="STRONG_53">‎N/A</b>
+            <button id="BUTTON_52"><strike>
+              Snapdeal<b id="STRONG_53">‎N/A</b></strike>
             </button>
           </li>
         </ul>
@@ -364,8 +364,8 @@
             </button>
           </li>
           <li id="LI_51">
-            <button id="BUTTON_52" >
-              Snapdeal<b id="STRONG_53">‎N/A</b>
+            <button id="BUTTON_52" ><strike>
+              Snapdeal<b id="STRONG_53">‎N/A</b></strike>
             </button>
           </li>
         </ul>
@@ -431,8 +431,8 @@
         
         <ul id="UL_44">
           <li id="LI_45">
-            <button id="BUTTON_46" >
-              Amazon.in<b id="STRONG_47">N/A</b>
+            <button id="BUTTON_46" ><strike>
+              Amazon.in<b id="STRONG_47">N/A</b></strike>
             </button>
           </li>
           <li id="LI_48">
@@ -441,8 +441,8 @@
             </button>
           </li>
           <li id="LI_51">
-            <button id="BUTTON_52" >
-              Snapdeal<b id="STRONG_53">‎N/A</b>
+            <button id="BUTTON_52" ><strike>
+              Snapdeal<b id="STRONG_53">‎N/A</b></strike>
             </button>
           </li>
         </ul>
@@ -592,13 +592,13 @@
             </button>
           </li>
           <li id="LI_48">
-            <button id="BUTTON_49">
-              Flipkart<b id="STRONG_50">‎N/A</b>
+            <button id="BUTTON_49"><strike>
+              Flipkart<b id="STRONG_50">‎N/A</b></strike>
             </button>
           </li>
           <li id="LI_51">
-            <button id="BUTTON_52">
-              Snapdeal<b id="STRONG_53">‎N/A</b>
+            <button id="BUTTON_52"><strike>
+              Snapdeal<b id="STRONG_53">‎N/A</b></strike>
             </button>
           </li>
         </ul>
@@ -746,13 +746,13 @@
             </button>
           </li>
           <li id="LI_48">
-            <button id="BUTTON_49" onclick="location.href='https://www.flipkart.com/mi-5-gold-32-gb/p/itmejfrt6yurhuzf?pid=MOBEJFRTKAXMQW7H&srno=s_1_3&otracker=search&lid=LSTMOBEJFRTKAXMQW7HFDXUOD&qH=92b3e481040954fe';">
-              Flipkart<b id="STRONG_50">‎N/A</b>
+            <button id="BUTTON_49" ><strike>
+              Flipkart<b id="STRONG_50">‎N/A</b></strike>
             </button>
           </li>
           <li id="LI_51">
-            <button id="BUTTON_52">
-              Snapdeal<b id="STRONG_53">‎N/A</b>
+            <button id="BUTTON_52"><strike>
+              Snapdeal<b id="STRONG_53">‎N/A</b></strike>
             </button>
           </li>
         </ul>
@@ -775,3 +775,4 @@
       </section>
     </div>
   </article>
+</li>
