@@ -557,7 +557,7 @@
       <div id="DIV_23">
         <div id="DIV_24">
           <h3 id="H3_25">
-            Apple iPhone 6 Plus (Gold, Silver, Grey)
+            Apple iPhone 6+ (Gold, Grey)
           </h3>
           <div id="DIV_26">
           </div>

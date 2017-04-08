@@ -1,4 +1,4 @@
-
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -448,33 +448,33 @@ li a:hover {
 	<div style="background-color: #005fa7; border-top-left-radius: 1.5em; border-top-right-radius: 1.5em; color:#fff; padding:0.7em;"><center><b>BRANDS</b></center></div>
 	<ul class="brand_list">
 		<li>
-    <a id="anchor" href="Apple.html"><b>Apple</b></a>
+    <a id="anchor" href="Apple.jsp"><b>Apple</b></a>
 			
 		</li>
 		<li>
-      <a id="anchor" href="samsung.html">
+      <a id="anchor" href="samsung.jsp">
 			<b>Samsung</b>
       </a>
 		</li>
 		<li>
-    <a id="anchor" href="LG.html">
+    <a id="anchor" href="LG.jsp">
 			<b>LG</b>
       </a>
 		</li>
 		<li>
-    <a id="anchor" href="Motorola.html">
+    <a id="anchor" href="Motorola.jsp">
 			<b>Motorola</b>
       </a>
 		</li>
 		
 		<li>
-    <a id="anchor" href="htc.html">
+    <a id="anchor" href="htc.jsp">
 			<b>HTC</b>
       </a>
 		</li>
 		
 		<li>
-<a id="anchor" href="Lenovo.html"><b>Lenovo</b>
+<a id="anchor" href="Lenovo.jsp"><b>Lenovo</b>
       </a>
 		</li>
 		
@@ -1096,31 +1096,7 @@ li a:hover {
         </div>
       </section>
     </div>
-    <div id="DIV_66">
-      <div id="DIV_67">
-        <div id="DIV_68">
-          <div id="DIV_69">
-            <div id="DIV_70">
-              <button id="BUTTON_71">
-                Share
-              </button>
-            </div>
-            <button id="BUTTON_72">
-              <span id="SPAN_73"></span>
-            </button>
-            <svg id="svg_74">
-              <path id="path_75">
-              </path>
-            </svg><span id="SPAN_76">Close</span>
-            <button id="BUTTON_77">
-              
-            </button>
-          </div>
-          <div id="DIV_78">
-          </div>
-        </div>
-      </div>
-    </div>
+    
   </article>
 </li>
 
@@ -1740,32 +1716,32 @@ if($(document).scrollTop() > 1125 && $(document).scrollTop() < 3150)
       if(document.getElementById("mySearch").value=="Samsung"||document.getElementById("mySearch").value=="samsung"||document.getElementById("mySearch").value=="SAMSUNG")
       {
 
-        window.open("samsung.html","_self");
+        window.open("samsung.jsp","_self");
       }
       else if(document.getElementById("mySearch").value=="HTC"||document.getElementById("mySearch").value=="htc"||document.getElementById("mySearch").value=="Htc")
       {
 
-        window.open("htc.html","_self");
+        window.open("htc.jsp","_self");
       }
       else if(document.getElementById("mySearch").value=="Motorola"||document.getElementById("mySearch").value=="motorola"||document.getElementById("mySearch").value=="MOTOROLA")
       {
 
-        window.open("Motorola.html","_self");
+        window.open("Motorola.jsp","_self");
       }
       else if(document.getElementById("mySearch").value=="LG"||document.getElementById("mySearch").value=="lg"||document.getElementById("mySearch").value=="Lg")
       {
 
-        window.open("LG.html","_self");
+        window.open("LG.jsp","_self");
       }
       else if(document.getElementById("mySearch").value=="APPLE"||document.getElementById("mySearch").value=="apple"||document.getElementById("mySearch").value=="Apple")
       {
 
-        window.open("Apple.html","_self");
+        window.open("Apple.jsp","_self");
       }
       else if(document.getElementById("mySearch").value=="Lenovo"||document.getElementById("mySearch").value=="lenovo"||document.getElementById("mySearch").value=="LENOVO")
       {
 
-        window.open("Lenovo.html","_self");
+        window.open("Lenovo.jsp","_self");
       }
       else
       {
